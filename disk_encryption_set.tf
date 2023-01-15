@@ -1,4 +1,4 @@
-ata "azurerm_client_config" "current" {}
+data "azurerm_client_config" "current" {}
 
 resource "random_string" "key_vault_prefix" {
   length  = 6
